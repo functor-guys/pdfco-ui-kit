@@ -23,10 +23,18 @@
   "generators": {
     "@nx/react": {
       "application": {
+        "style": "none",
+        "linter": "eslint",
+        "bundler": "vite",
         "babel": true
       },
       "library": {
+        "style": "none",
+        "linter": "eslint",
         "unitTestRunner": "none"
+      },
+      "component": {
+        "style": "none"
       }
     }
   }
