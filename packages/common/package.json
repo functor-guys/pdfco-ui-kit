@@ -1,0 +1,19 @@
+{
+  "name": "@functor-guys/common",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/functor-guys/pdfco-ui-kit"
+  },
+  "publishConfig": {
+    "@functor-guys:registry": "https://npm.pkg.github.com"
+  }
+}
