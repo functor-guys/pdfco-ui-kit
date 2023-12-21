@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@functor-guys/pdfco-ui-kit-elements": ["packages/elements/src/index.ts"],
       "@functor-guys/ui-kit-common": ["packages/common/src/index.ts"],
       "@functor-guys/ui-kit-helpers": ["packages/helpers/src/index.ts"]
     }

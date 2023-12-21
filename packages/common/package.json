@@ -15,5 +15,11 @@
   },
   "publishConfig": {
     "@functor-guys:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "ramda": "^0.29.1"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.29.9"
   }
 }
